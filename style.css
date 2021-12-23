@@ -5,10 +5,14 @@
 }
 #the ,#cacao , #chocolat 
 {
+    text-align: center;
     width: 200px;
     height: 150px;
-
+    border: solid 1px #8D99AE; 
+    
+ 
 }
+
 body
 {
     background-image: repeating-radial-gradient(#CCDAE0, #EDF2F4) ;
@@ -22,7 +26,47 @@ h1
 {
     color: #EF233C ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: xx-large;
     font-weight: bolder;
 }
+h3
+{
+    color: #2B2D42;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: dashed underline;
 
+}
+
+article
+{
+    border: solid 1px black;
+    margin: 1px;
+
+}
+footer
+{
+    text-align: right;
+
+}
+
+ul
+{
+    list-style-type: none;
+
+}
+
+a:hover
+{
+    color: #2B2D42 ;
+
+}
+a
+{
+    color: #D90429;
+
+}
+a:visited
+{
+    color: grey;
+}
