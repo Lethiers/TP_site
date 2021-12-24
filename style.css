@@ -2,22 +2,27 @@
 {
     width: 800px;
     height: 200px;
-}
-#the ,#cacao , #chocolat 
-{
-    text-align: center;
-    width: 200px;
-    height: 150px;
-    border: solid 1px #8D99AE; 
     
- 
 }
+#the ,#cacao , #chocolat
+{
+    width: 200px;
+    height: 100px;
+    border: solid 2px #8D99AE;
+} 
+
 
 body
 {
-    background-image: repeating-radial-gradient(#CCDAE0, #EDF2F4) ;
+    background-image: linear-gradient(to bottom,#CCDAE0, #EDF2F4);
 }
+
+
 header
+{
+    text-align: center;
+}
+section /*pour centrer les images*/
 {
     text-align: center;
 }
@@ -25,7 +30,7 @@ header
 h1
 {
     color: #EF233C ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, sans-serif;
     font-size: xx-large;
     font-weight: bolder;
 }
@@ -35,15 +40,20 @@ h3
     font-size: x-large;
     font-weight: bolder;
     text-decoration: dashed underline;
+    text-align: left;
 
+}
+
+p
+{
+    text-align: left;
 }
 
 article
 {
     border: solid 1px black;
-    margin: 1px;
-
 }
+
 footer
 {
     text-align: right;
@@ -55,11 +65,9 @@ ul
     list-style-type: none;
 
 }
-
-a:hover
+.etoile/* pour modifier l'étoile d'obligatoire*/
 {
-    color: #2B2D42 ;
-
+    color: red;
 }
 a
 {
@@ -70,3 +78,9 @@ a:visited
 {
     color: grey;
 }
+a:hover
+{
+    color: #2B2D42 ;
+
+}
+
